@@ -7,6 +7,8 @@
 
    .cabeca{
 
+      z-index: 10;
+
       background-color: rgb(255, 188, 18);
 
       top: 0px;
@@ -22,7 +24,6 @@
       justify-content: space-between;
 
    }
-
    .logo {
 
       display: flex;
@@ -31,7 +32,6 @@
       align-items: center;
 
    }
-
    .menu {
    
       margin-right: 10%;
@@ -49,7 +49,6 @@
       width: 40%;
 
    }
-
    .menu a{
 
       color: black;
@@ -69,7 +68,6 @@
       font-size: small;
 
    }
-
    @media(max-width: 550px){
       .cabeca{
          display: grid;
@@ -88,8 +86,21 @@
          margin-bottom: 5px;
          margin-right: 0px;
       }
+      .cabeca img{
+         height: 50px;
+      }
    }
 
-.enchelinguica {
-   height: 9999px;
-}
+/* Imagens grandonas com texto */
+
+   .img1 {
+      position: relative;
+      right: 0px;
+   }
+   .dentro-img1 {
+      position: absolute;
+   }
+   .dentro-img1 h2{
+      color: white;
+      
+   }
