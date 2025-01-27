@@ -68,7 +68,7 @@
       font-size: small;
 
    }
-   @media(max-width: 550px){
+   @media(max-width: 580px){
       .cabeca{
          display: grid;
          align-items: center;
@@ -94,37 +94,87 @@
 /* Imagens grandonas com texto */
 
    .img1 {
+      
       position: relative;
       right: 0px;
+
+   }
+   .img1 img{
+
+      width: 100%;
+
    }
    .dentro-img1 {
       position: absolute;
-      top: 25%;
+      top: 18%;
 
       justify-items: center;
    
    }
    .dentro-img1 h2{
+
       color: white;
       margin-left: 10%;
       margin-right: 10%;
       text-align: center;
-      font-size: 37px;
+      font-size: 2.2vw;
    }
    .dentro-img1 p{
       color: white;
-      margin: 5%;
-      margin-left: 15%;
-      margin-right: 15%;
+      margin: 5vw;
+      margin-left: 13%;
+      margin-right: 13%;
       text-align: center;
       
-      font-size: 30px;
+      font-size: 2vw;
    }
    .dentro-img1 button{
       color: black;
       background-color: rgb(255, 188, 18);
       border: none;
-      border-radius: 3px;
+      border-radius: 4px;
       padding: 5%;
+      width: 25vw;
+      font-size: 1.5vw;
+      margin-top: 10%;
       
+   }
+   .dentro-img1 button:active{
+      background-color: rgb(200, 144, 0);
+   }
+   .dentro-img1 button:hover{
+      cursor: pointer;
+   }
+   @media(max-width: 700px){
+
+      .dentro-img1{
+         top: 15%;
+      }
+
+      .dentro-img1 h2{
+         font-size: 5vw;
+         margin-left: 8%;
+         margin-right: 8%;
+      }
+      .dentro-img1 p{
+         font-size: 4vw;
+         margin-left: 10%;
+         margin-right: 10%;
+      }
+      .img1 img{
+         height: 80vw;
+
+
+      }
+      .dentro-img1 button{
+
+         width: 50vw;
+         font-size: 4vw;
+         margin-top: 0px;
+         
+      }
+
+   }      
+   .linguica{
+      height: 8000px;
    }
