@@ -287,6 +287,11 @@
       grid-auto-columns: 1fr 1fr;
       grid-auto-rows: 1fr 1fr 1fr;
 
+      margin: 5%;
+
+      grid-row-gap: 20%;
+      grid-column-gap: 10%;
+
       grid-template-areas: 
       'b1 b2' 
       'b3 b4'
@@ -294,7 +299,7 @@
       ;
    }
    .blocos div img{
-      width: 10%;
+      width: 4.5vw;
    }
    #bloco1{
       grid-area: 'b1';
@@ -314,6 +319,38 @@
    #bloco6{
       grid-area: 'd6';
    }
+   .blocos div{
+
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      
+      grid-gap: 10%;
+
+   }
+   .blocos div img{
+      grid-column: 1/2;
+      grid-row: 1/3;
+   }
+   .blocos div h3{
+      grid-column: 2/3;
+      grid-row: 1/2;
+      text-align: center;
+
+      padding-bottom: 3%;
+
+      border-bottom: 3px solid goldenrod;
+   }
+   .blocos div p{
+      grid-column: 2/3;
+      grid-row: 2/3;
+      text-align: justify;
+   }
+   .blocos div p a{
+      /* text-decoration: none; */
+      color: goldenrod;
+   }
+
 
 
    .linguica{
