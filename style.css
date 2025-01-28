@@ -91,7 +91,7 @@
       }
    }
 
-/* Imagens grandonas com texto */
+/* Imagem 1 */
 
    .img1 {
       
@@ -175,6 +175,37 @@
       }
 
    }      
+
+/* Imagem 2 */
+   .img2{
+      
+      position: relative;
+      right: 0px;
+      bottom: 5px;
+
+   }
+   .img2 img{
+      width: 100%;
+   }
+   .dentro-img2{
+      position: absolute;
+      display: grid;
+      top: 18%;
+
+      grid-auto-columns: 1fr 1fr;
+
+      grid-template-areas: 
+      'h2 paragrafos'
+      ;
+
+   }
+   .dentro-img2 h2{
+      grid-area: 'h2';
+   }
+   .img2-paragrafos{
+      grid-area: 'paragrafos';
+   }
+
    .linguica{
       height: 8000px;
    }
