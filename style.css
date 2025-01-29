@@ -388,9 +388,34 @@
    /* Blog(?) */
 
    .blog {
-      
-   }
 
+      background-color: rgba(255, 0, 0, 0.233);
+
+      display: grid;
+      grid-gap: 10px;
+
+      grid-template-columns: 1fr 4fr 1fr;
+      grid-template-rows: auto auto;
+      align-items: center;
+      justify-items: center;
+
+   }
+   .blog h2{
+
+      grid-column: 1/4;
+      font-size: 3vw;
+      border-bottom: 3px solid rgb(255, 188, 18);
+      padding: 1%;
+
+   }
+   .seta{
+      background-color: rgba(0, 0, 0, 0);
+      border: none;
+   }
+   .seta:hover{
+      cursor: pointer;
+   }
+   
    .linguica{
       height: 8000px;
    }
