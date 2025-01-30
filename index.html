@@ -240,11 +240,85 @@
             <button class="seta">&gt</button>
         </div>
 
+        <!-- Contato -->
+        <h2 id="contato-titulo">CONTATO</h2>
+
+        <div class="contato">
+            
+            <div class="informacoes-contato">
+
+                <div>
+                    <h3>Telefone:</h3>
+                    <p>(55)4002-8922</p>
+                </div>
+                <div>
+                    <h3>Email:</h3>
+                    <p>Diamante@diamante.com</p>
+                </div>
+                <div>
+                    <h3>Horario de funcionamento:</h3>
+                    <p>8:00 as 19:00</p>
+                </div>
+                <div>
+                    <h3>Endereço:</h3>
+                    <p>Rua presidente Jr.</p>
+                    <p>CEP:99999-999 / Porto Alegre - RS</p>
+                    <p>Prédio 3 sala 89</p>
+                </div>
+
+            </div>
+
+            <div class="apps">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="./imagens/facebook.png" alt="facebook">
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <img src="./imagens/linkedin.png" alt="facebook">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="./imagens/instagram.png" alt="facebook">
+                </a>
+            </div>
+
+            <div class="questionario-contato">
+                <form action="form.php" method="post">
 
 
+                    <input type="text" placeholder="Nome *" required class="input-ctt">
 
+                    <input type="email" placeholder="E-mail *" required class="input-ctt">
+
+                    <input
+                        type="tel" 
+                        placeholder="Telefone *" 
+                        pattern="\d{11}"
+                        title="Digite o telefone no formato (00) 00000-0000"
+                        required
+                        class="input-ctt"
+                    >
+
+                    <input type="text" placeholder="Empresa" class="input-ctt">
+
+                    <input type="text" placeholder="Cargo" class="input-ctt">
+
+                    <select name="" id="" class="input-ctt">
+                        <option value="" disabled selected>Selecione um servico</option>
+                        <option value="1">servico 1</option>
+                        <option value="2">servico 2</option>
+                        <option value="3">servico 3</option>
+                    </select>
+
+                    <textarea name="mensafens" id="" placeholder="Mensagem *" required class="input-ctt"></textarea>
+
+                    <input class="enviar-form" type="submit" class="input-ctt">
+        
+                </form>
+
+            </div>
 
         <div class="linguica"></div>
+
+        </div>
 
     </body>
 </html>
