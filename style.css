@@ -393,7 +393,7 @@
    
    }
 
-   /* Blog(?) */
+/* Blog(?) */
 
    .blog {
 
@@ -467,7 +467,7 @@
       }
    }
 
-   /* Contato */
+/* Contato */
 
    #contato-titulo{
       font-size: 3vw;
@@ -565,5 +565,18 @@
          grid-row: 3/4;
       }
    }
+
+/* Footer */
+
+   footer{
+      margin-top: 4%;
+      background-color: rgb(255, 188, 18);
+      padding: 10px;
+      justify-items: center;
+   }
+   footer p{
+      padding: 5px;
+   }
+
 
 
